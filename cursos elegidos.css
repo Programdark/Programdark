@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:rgb(80, 161, 150);
+}
+#cursosElegidos{
+    margin:auto;
+    margin-top:80px;
+    border-collapse: collapse;
+    text-align: center;
+}
+#cursosElegidos td, th{
+    padding: 7px 85px;
+}
+#cursosElegidos thead{
+    background-color: #162B4E;
+    color:aliceblue;
+}
+#cursosElegidos tbody{
+    background-color: #d3d3d3;
+}
+.ATRIBUTOS{
+    background: #8B0000;
+    color:white;
+    font-size: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

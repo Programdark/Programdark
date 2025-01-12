@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin-top:80px;
+    background-color:rgb(80, 161, 150);
+}
+header{
+    border: black;
+    background-color: #d3d3d3;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    width: 1080px;
+    height: 50px;
+}
+#menu_despleglable{
+    margin: auto;
+    text-align: center;
+    width: 1080px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul,ol{
+    list-style: none;
+}
+.ciclos li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.ciclos li a:hover{
+    background-color: #434343;
+}
+.ciclos > li{
+    float:left;
+}
+#cursos{
+    margin:auto;
+    margin-top:80px;
+    border-collapse: collapse;
+    text-align: center;
+}
+#cursos td, th{
+    padding: 7px 85px;
+}
+#cursos thead{
+    background-color: #162B4E;
+    color:aliceblue;
+}
+#cursos tbody{
+    background-color: #d3d3d3;
+}
+.ATRIBUTOS{
+    background: #8B0000;
+    color:white;
+    font-size: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.agregar{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 1.5px 4.5px;
+    border: 0;
+    border-radius: 50%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.agregar:active {
+    background-color: #000000;
+    padding: 2px 5px;
+}
